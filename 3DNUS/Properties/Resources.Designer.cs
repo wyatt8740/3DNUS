@@ -83,12 +83,12 @@ namespace _3DNUS_Material_Edition.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        internal static byte[] NDP461_KB3102438_Web {
+/*        internal static byte[] NDP461_KB3102438_Web {
             get {
                 object obj = ResourceManager.GetObject("NDP461_KB3102438_Web", resourceCulture);
                 return ((byte[])(obj));
             }
-        }
+        }*/
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
