@@ -2,6 +2,10 @@
 This is a modification of 3DNUS Mod ( from https://github.com/zoltx23/3DNUS ).
 It is made to run in Linux without Wine, via the Mono framework.
 
+Note that on a fresh install of Debian, I had to install
+`libmono-system-windows-forms4.0-cil` for the app to run properly.
+Installing the `mono-complete` package would probably also accomplish this.
+
 ====BUILDING====
 To build this program in mono on linux, run the `xbuild` command in the
 `3DNUS` directory to create debug builds, or `xbuild /p:Configuration=Release`
