@@ -19,12 +19,6 @@ libmono-system-deployment4.0-cil libmono-system-data-datasetextensions4.0-cil
 
 
 ====NOTE TO OS X USERS:====
-It should also successfully run on Mac OS X via Mono, although you will
-need to compile your own `make_cdn_cia` binaries (probably `make_cdn_cia64` on
-a modern install). Linux Intel binaries are included because I have a system to
-compile them from, as is a Windows 32-bit x86 binary (which will also work on
-x86_64).
-
 As of 31 July 2017, I have compiled a Mac OS X binary that *SHOULD* work on
 32-bit or 64-bit Intel-based systems running at least OS X 10.5 (Leopard).
 I have only been able to test it in 10.8 (Mountain Lion), however, so if you
@@ -39,6 +33,9 @@ between OS X & Linux systems - which is actually kind of tricky to do in C#
 from the looks of it (both identify as POSIX-type operating systems).
 This effectively replaces the linux binaries with OS X ones, which the system
 will happily execute.
+
+If your system will not run my binary, you will have to compile make_cdn_cia
+yourself. Read on in that case.
 
 ====TO COMPILE make_cdn_cia IN OS X====
 To make your own `make_cdn_cia` binaries you'll need a development environment
@@ -69,3 +66,4 @@ of the program in a single file for simplicity. It also theoretically should
 make the program run on any version OS X at or above Leopard (on Intel CPUs),
 but this is entirely untested at present. My binary works for sure in
 10.8 (Mountain Lion).
+
