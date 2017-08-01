@@ -13,6 +13,11 @@ for a release build.
 
 The binaries will go in `3DNUS/bin/Debug/` or `3DNUS/bin/Release`.
 
+To build it initially, I had to install the following packages in Debian:
+mono-devel mono-xbuild libmono-microsoft-csharp4.0-cil
+libmono-system-deployment4.0-cil libmono-system-data-datasetextensions4.0-cil
+
+
 ====NOTE TO OS X USERS:====
 It should also successfully run on Mac OS X via Mono, although you will
 need to compile your own `make_cdn_cia` binaries (probably `make_cdn_cia64` on

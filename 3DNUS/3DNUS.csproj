@@ -224,6 +224,9 @@
     <Content Include="make_cdn_cia64">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="make_cdn_cia_osx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="new_3dnus_logo.ico" />
     <None Include="Resources\3dnus_3_256.png" />
     <None Include="Resources\new_3dnus_logo_128.png" />
@@ -234,6 +237,7 @@
     <None Include="Resources\make_cdn_cia.exe" />
     <None Include="Resources\make_cdn_cia32" />
     <None Include="Resources\make_cdn_cia64" />
+    <None Include="Resources\make_cdn_cia_osx" />
   </ItemGroup>
 <!-- removed because not cross-platform and music is annoying -->
 <!--  <ItemGroup> -->
