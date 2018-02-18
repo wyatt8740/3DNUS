@@ -9,7 +9,8 @@ Installing the `mono-complete` package would probably also accomplish this.
 ====BUILDING====
 To build this program in mono on linux, run the `xbuild` command in the
 `3DNUS` directory to create debug builds, or `xbuild /p:Configuration=Release`
-for a release build.
+for a release build. In Debian, `xbuild` is installed in the package
+`mono-xbuild`.
 
 The binaries will go in `3DNUS/bin/Debug/` or `3DNUS/bin/Release`.
 
