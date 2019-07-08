@@ -43,6 +43,14 @@ The original program is included in
 [CTR_Toolkit](https://github.com/Tiger21820/ctr_toolkit).
 
 #### NOTES FOR OS X USERS:
+You may have to invoke the program with:
+```
+mono --arch=32 3DNUS.exe
+```
+Forcing 32-bit is necessary *in older mono releases* because Mono's winforms
+implementation was tied to a few 32-bit only API's. Apparently, that is no
+longer true as of 2019.
+
 As of 31 July 2017, I have compiled a Mac OS X binary that *SHOULD* work on
 32-bit or 64-bit Intel-based systems running at least OS X 10.5 (Leopard).
 I have only been able to test it in 10.8 (Mountain Lion), however, so if you
