@@ -62,6 +62,9 @@ If your system will not run my binary, you will have to compile make_cdn_cia
 yourself. Read on in that case.
 
 #### TO COMPILE `make_cdn_cia` IN OS X
+Note that my git repo includes pre-built binaries, so hopefully this won't be
+necessary for you.
+
 To make your own `make_cdn_cia` binaries you'll need a development environment
 (such as xcode) for the development headers, and GNU Make (I'd recommend just
 installing it via macports/fink/brew, though it's been a while since I used
