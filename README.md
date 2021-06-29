@@ -17,6 +17,33 @@ Note that on a fresh install of Debian, I had to install
 `libmono-system-windows-forms4.0-cil` for the app to run properly.
 Installing the `mono-complete` package would probably also accomplish this.
 
+## USAGE
+
+* Find your desired firmware version name from [here](https://yls8.mtheall.com/ninupdates/reports.php).
+
+  * Example: if you want 10.7, find it in the list. It's listed as `10.7.0-32`.
+  
+* Add your region code to the name (example for USA: `10.7.0-32U`.
+
+* Enter it into the text input field, choose your system, and click the
+download button.
+
+Note that there's some weird firmware versions that break the parser
+in the original 3DNUS. To get around that, I'm doing something silly, as was
+the author of the fork I forked this from.
+
+* If you want `08-18-16_TWN_BeginScanning`, ask for `11.0.0-33T`. I don't know
+if that's its actual name, but I had to call it something to not break the
+parser, unless I wanted to rewrite it. Since this program is just a
+hack of a hack, I didn't bother.
+
+* If you want `N/A` (another actual firmware name), ask for `11.3.0-36T`.
+Again, no idea if that's its real name, but I'm guessing based on the
+release date and just trying to make the thing build.
+
+* Looks like the guy I forked this code from also was using similar techniques.
+`02-11-15_GPIO` -> `9.5.0-22`, and `10-02-14 JPN` is `9.1.0-20J`.
+
 ## BUILDING
 
 To build this program in mono on linux, run the `xbuild` (or `msbuild`, if you
